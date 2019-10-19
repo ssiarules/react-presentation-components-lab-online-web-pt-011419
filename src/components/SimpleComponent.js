@@ -1,5 +1,5 @@
 // Code SimpleComponent Here
-import React, { Components} from 'react';
+import React, {Component} from 'react';
 
 class SimpleComponent extends React.Component {
 
@@ -20,6 +20,6 @@ class SimpleComponent extends React.Component {
       <div>
           {this.state.mood}
       </div>
-    )
+    );
   }
 }
