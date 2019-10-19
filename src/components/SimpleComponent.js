@@ -22,7 +22,8 @@ class SimpleComponent extends React.Component {
       </div>
     );
   }
+
+  }
   SimpleComponent.defaultProps = {
     mood: "happy"
-  }
 }
